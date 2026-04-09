@@ -1,0 +1,631 @@
+body {
+
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section-1 {
+    background: linear-gradient(90deg, #7b2ff7, #9b4dff);
+}
+
+.logo {
+    height: 40px;
+    margin-right: 100px;
+    margin-top: auto;
+    color: white;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    margin-top: 10px;
+
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    text-shadow: white;
+    gap: 20px;
+
+}
+
+.nav-left a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.signin {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+.signup {
+    background: #ff4d6d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about {
+    max-width: max-content;
+}
+
+.pages {
+    max-width: max-content;
+    border-radius: 20px;
+
+}
+
+.pages a {
+    color: black;
+    background: white;
+    text-align: center;
+}
+
+.about a {
+    color: black;
+    background: white;
+    text-align: center;
+}
+
+.section-first {
+    padding: 80px 60px;
+
+}
+
+.text {
+    margin: 15px;
+    text-align: start;
+    padding-bottom: 100px;
+}
+
+.text p {
+    margin-left: 50px;
+}
+
+.heading {
+    width: 800px;
+    font-weight: bold;
+    line-height: 1.25;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-bottom: 28px;
+    font-size: 3.625rem;
+}
+
+.hero-content {
+    max-width: 600px;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    text-align: center;
+    align-items: center;
+}
+
+.hero-content button {
+    background: #ff4d6d;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image img {
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 45px;
+    height: 550.26px;
+    width: 502px;
+    margin-right: 60px;
+    margin-top: 150px;
+
+}
+
+.hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+.hero-content h1 {
+    font-size: 40px;
+}
+
+.hero-1-txt {
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.text p {
+    text-align: start;
+    left: 100px;
+    position: absolute;
+}
+
+.section-2 {
+    background-color: white;
+
+}
+
+.section-2 h1 {
+    font-weight: 700;
+    font-size: 55px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.5px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section-2 h5 {
+    color: grey;
+    margin-bottom: 0;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.services {
+    text-align: center;
+    padding: 60px 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2d3748;
+}
+
+.subtitle {
+    color: #6b7280;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background: transparent;
+    padding: 20px;
+    display: block;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: rgba(255, 51, 102, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #ff3366;
+}
+
+.card h3 {
+    font-size: x-large;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.35rem;
+    text-align: center;
+}
+
+.card h6 {
+    margin-top: 10px;
+    color: #6b7280;
+    font-size: 1rem;
+    font-weight: 530;
+    width: 200px;
+
+}
+
+.section-3 {
+    background: white;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 60px;
+    align-items: center;
+
+}
+
+.section-3 .left-3 {
+    align-items: start;
+    margin-left: 50px;
+    margin-top: 100px;
+    height: 512px;
+    width: 490px;
+}
+
+.section-3 .right-3 {
+    margin-top: 100px;
+    height: 512px;
+    width: 490px;
+    letter-spacing: 1.5px;
+}
+
+.section-3 .right-3 h1 {
+    font-weight: 700;
+    line-height: 1.25;
+    font-family: 'Jakarta', sans-serif;
+    font-size: 2.875rem;
+    margin-bottom: 26px;
+}
+
+.section-3 .right-3 h2 {
+    font-weight: 700;
+    line-height: 1.35;
+    font-family: 'Jakarta', sans-serif;
+    font-size: 1.85rem;
+    margin-bottom: 20px;
+}
+
+.section-3 .right-3 h3 {
+    font-size: 0.85rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: 'Jakarta', sans-serif;
+    margin-bottom: 35px;
+}
+
+.section-3 .right-3 h6 {
+    font-size: 1.05rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.section-3 .right-3 ul {
+    margin-left: 15px;
+    list-style-type: disc;
+}
+
+.section-4 {
+    background: white;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.section-4 .left-4 {
+    margin-top: 200px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+
+}
+
+.section-4 .left-4 h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.85rem;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 1.35;
+
+}
+
+.section-4 .left-4 p {
+    font-size: 1.15rem;
+    color: #2d3748;
+}
+
+.section-4 .left-4 ul {
+    margin-top: 10px;
+    margin-left: 15px;
+    list-style-type: disc;
+    font-size: 1.15rem;
+    color: #2d3748;
+}
+
+.section-4 .right-4 img {
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 45px;
+    height: 580.26px;
+    width: 512px;
+    margin-right: 60px;
+    margin-top: 150px;
+}
+
+.section-5 h2 {
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: -0.5px;
+    font-size: 3.125rem;
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.section-5 p {
+    color: gray;
+    font-size: 1.3125rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-5 .container-5 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.section-5 .left-5 {
+    background: rgba(239, 245, 254, 0.705);
+    margin-top: 50px;
+    margin-left: 80px;
+    padding-bottom: 50px;
+    height: 542px;
+    border-radius: 16px;
+}
+
+.section-5 .left-5 h5 {
+    font-size: 1.625rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-5 .left-5 .p {
+    font-size: 1.25rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.section-5 .left-5 img {
+    height: 243px;
+    width: 390px;
+    margin-left: 60px;
+}
+
+.section-5 .right-5 {
+    background: rgba(239, 245, 254, 0.705);
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    height: 542px;
+    border-radius: 16px;
+}
+
+.section-5 .right-5 img {
+    height: 253px;
+    width: 380px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.section-5 .right-5 h5 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-5 .right-5 p {
+    font-size: 1.25rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+    background: #fff;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.container-2 .content-1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 300px;
+}
+
+.container-2 .content-1 h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.container-2 .content-1 p {
+    font-size: 18px;
+    color: gray;
+    line-height: 1.3;
+
+}
+
+
+.section-6 {
+    background: white;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 60px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section-6 .left-6 {
+    margin-top: 50px;
+    padding-left: 90px;
+    height: 554px;
+    width: 512px;
+    align-items: start;
+
+}
+
+.section-6 .right-6 h5 {
+    font-weight: 700;
+    line-height: 1.35;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.85rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section-6 .right-6 p {
+    font-size: 1.15rem;
+    margin-right: 50px;
+    letter-spacing: 1px;
+}
+
+.section-6 .right-6 ul {
+    margin-right: 15px;
+    list-style-type: disc;
+    font-size: 1.15rem;
+    margin-right: 50px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.section-6 .right-6 button {
+    background: white;
+    color: rgb(80, 78, 78);
+    border: black solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.975rem;
+    margin-top: 25px;
+    font-family: 'Jakarta', sans-serif;
+}
+
+
+.section-7 {
+    background: rgba(255, 255, 255, 0.555);
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 60px;
+    align-items: center;
+    
+}
+
+.section-7 .left-7 {
+    margin-top: 100px;
+    padding-left: 70px;
+    height: 554px;
+    width: 512px;
+    align-items: start;
+
+}
+
+.section-7 .left-7 h6 {
+    font-size: 1rem;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section-7 .left-7 h2 {
+    font-size: 2.875rem;
+    font-weight: 700;
+    font-family: 'Jakarta', sans-serif;
+    margin-top: 30px;
+}
+
+.section-7 .left-7 p {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.section-7 .left-7 span {
+    color: rgba(255, 0, 0, 0.692);
+}
+
+
+.services-1 {
+    position: absolute;
+    display: flex;
+    background: rgba(255, 255, 255, 0.947);
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 200px;
+}
+
+.service-grid-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card-1 {
+    background: white;
+    border: rgb(232, 232, 232) solid;
+    border-radius: 15px;
+    padding: 20px;
+    display: block;
+}
+
+.card-1 h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.35rem;
+    text-align: center;
+}
+
+.card-1 h6 {
+    margin-top: 10px;
+    color: #6b7280;
+    font-size: 1rem;
+    font-weight: 530;
+    width: 200px;
+
+}
