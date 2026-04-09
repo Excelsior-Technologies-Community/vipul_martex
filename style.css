@@ -590,19 +590,20 @@ body {
 
 
 .services-1 {
-    position: absolute;
+    position: relative;
     display: flex;
     background: rgba(255, 255, 255, 0.947);
     text-align: center;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
 }
 
 .service-grid-1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    margin-bottom: 20px;
 }
 
 .card-1 {
@@ -614,7 +615,7 @@ body {
 }
 
 .card-1 h3 {
-    font-size: 1.15rem;
+    font-size: 1.30rem;
     font-weight: 700;
     font-family: 'Plus Jakarta Sans', sans-serif;
     line-height: 1.35rem;
@@ -624,7 +625,7 @@ body {
 .card-1 h6 {
     margin-top: 10px;
     color: #6b7280;
-    font-size: 1rem;
+    font-size: 1.0623rem;
     font-weight: 530;
     width: 200px;
 
