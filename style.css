@@ -551,7 +551,7 @@ body {
     grid-template-columns: 2fr 2fr;
     gap: 60px;
     align-items: center;
-    
+
 }
 
 .section-7 .left-7 {
@@ -588,6 +588,10 @@ body {
     color: rgba(255, 0, 0, 0.692);
 }
 
+.section-7 .right-7 {
+    display: block;
+    position: relative;
+}
 
 .services-1 {
     position: relative;
@@ -595,8 +599,8 @@ body {
     background: rgba(255, 255, 255, 0.947);
     text-align: center;
     margin-left: 50px;
-    margin-top: 20px;
-    margin-right: 50px;
+    margin-top: 50px;
+
 }
 
 .service-grid-1 {
@@ -610,12 +614,12 @@ body {
     background: white;
     border: rgb(232, 232, 232) solid;
     border-radius: 15px;
-    padding: 20px;
+    padding: 29px;
     display: block;
 }
 
 .card-1 h3 {
-    font-size: 1.30rem;
+    font-size: 1.33rem;
     font-weight: 700;
     font-family: 'Plus Jakarta Sans', sans-serif;
     line-height: 1.35rem;
@@ -625,8 +629,131 @@ body {
 .card-1 h6 {
     margin-top: 10px;
     color: #6b7280;
-    font-size: 1.0623rem;
+    font-size: 1.07rem;
     font-weight: 530;
     width: 200px;
 
+}
+
+.section-8 {
+    margin-top: 80px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.section-8 .left-8 {
+    height: 441px;
+    width: 512px;
+    margin-left: 80px;
+}
+
+.section-8 .right-8 {
+    padding-right: 50px;
+}
+
+.section-8 .right-8 h6 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-family: 'Jakarta', sans-serif;
+    padding-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.section-8 .right-8 h2 {
+    font-size: 2.875rem;
+    font-weight: 700;
+    font-family: 'Jakarta', sans-serif;
+    letter-spacing: 1px;
+}
+
+.section-8 .right-8 ul {
+    list-style-type: disc;
+    font-size: 1.15rem;
+    color: rgb(110, 109, 109);
+    margin-left: 10px;
+    letter-spacing: 1px;
+    margin-right: 25px;
+}
+
+.section-8 .right-8 li {
+    margin-top: 20px;
+
+}
+
+.section-9 {
+    background: #f2eefc;
+    margin-top: 50px;
+}
+
+.section-9 .part-1 h2 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: 'Jakarta', sans-serif;
+    color: #353f4f;
+}
+
+.section-9 .part-1 p {
+    font-size: 1.3135rem;
+    color: #757575;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.section-9 .part-1 img {
+    padding-top: 80px;
+    max-width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container-3 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 1.0625rem;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+.trusted {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.trusted-text{
+    display: inline-block;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    font-family: 'Jakarta', sans-serif;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.logo-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.logo-row img{
+    height: 60px;
+    opacity: 0.7;
+    transform: 0.3s;
+    filter: grayscale(100%);
+}
+.logo:hover img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    filter: grayscale(100%);
 }
