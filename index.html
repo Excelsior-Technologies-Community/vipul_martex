@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martex - Tailwid CSS Software</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -308,20 +308,82 @@
             <img src="https://martex-tailwindcss.ibthemespro.com/images/dashboard-01.png" alt="">
         </div>
     </section>
-    <div class="trusted">
-        <h5 class="trusted-text">Martex is loved and trusted by thousands:</h5>
-        <div class="logo-row">
-            <div class="logo"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-6.png" alt="MOUNTAIN">
-            </div>
-            <div class="logo"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-7.png" alt="LOREM LOGO"></div>
-            <div class="logo"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-8.png" alt="PEGASUS"></div>
-            <div class="logo"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-9.png" alt="FACTORY"></div>
-            <div class="logo"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-1.png" alt="HOSTING"></div>
-            <div class="logo"><img src="http://martex-tailwindcss.ibthemespro.com/images/brand-2.png" alt="ARCHITECT"></div>
-            <div class="logo"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-4.png" alt="INTDECO"></div>
-            <div class="logo"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-5.png" alt="SPARK"></div>
+    <div class="swiper mySwiper">
+        <h2 class="swiper-text">Martex is loved and trusted by thousands:</h2>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-6.png"
+                    alt="MOUNTAIN"></div>
+            <div class="swiper-slide"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-7.png"
+                    alt="LOREM LOGO"></div>
+            <div class="swiper-slide"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-8.png"
+                    alt="PEGASUS"></div>
+            <div class="swiper-slide"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-9.png"
+                    alt="FACTORY"></div>
+            <div class="swiper-slide"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-1.png"
+                    alt="HOSTING"></div>
+            <div class="swiper-slide"><img src="http://martex-tailwindcss.ibthemespro.com/images/brand-2.png"
+                    alt="ARCHITECT"></div>
+            <div class="swiper-slide"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-4.png"
+                    alt="INTDECO"></div>
+            <div class="swiper-slide"><img src="https://martex-tailwindcss.ibthemespro.com/images/brand-5.png"
+                    alt="SPARK"></div>
         </div>
+        <div class="swiper-pagination"></div>
     </div>
+
+    <section class="section-10">
+        <h2 class="text-h2">The Complete Solutions</h2>
+        <p class="text-p">Ligula risus auctor tempus magna feugiat lacinia.</p>
+        <div class="box">
+            <div class="box-1">
+                <img src="https://martex-tailwindcss.ibthemespro.com/images/f_01.png" alt="">
+                <h6 class="s10-inner-h6">Intuitive Dashboard
+                </h6>
+                <p class="s10-p">Luctus egestas augue undo ultrice aliquam in lacus congue dapibus</p>
+            </div>
+            <div class="box-2">
+                <img src="https://martex-tailwindcss.ibthemespro.com/images/f_05.png" alt="">
+                <h6 class="s10-inner-h6">Effortless Integration</h6>
+                <p class="s10-p">Tempor laoreet augue undo ultrice aliquam in lacusq luctus feugiat</p>
+            </div>
+            <div class="box-3">
+                <img src="https://martex-tailwindcss.ibthemespro.com/images/f_02.png" alt="">
+                <h6 class="s10-inner-h6">Engagement Analysis</h6>
+                <p class="s10-p">Egestas luctus augue undo ultrice aliquam in lacus feugiat cursus</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-11">
+        <div class="left-11">
+            <h6>Productivity Focused</h6>
+            <h2>Achieve more with better workflows</h2>
+            <p>Sodales tempor sapien quaerat ipsum undo congue laoreet turpis neque auctor turpis vitae dolor luctus
+                placerat magna and ligula cursus purus vitae purus an ipsum suscipit</p>
+            <p><span> ✔ </span>
+                Magna dolor luctus at egestas sapien</p>
+            <p><span> ✔ </span>
+                Cursus purus suscipit vitae cubilia magnis volute egestas vitae sapien turpis ultrice auctor congue
+                varius magnis</p>
+            <p><span> ✔ </span>
+                Volute turpis dolores and sagittis congue</p>
+        </div>
+        <div class="right-11">
+            <img src="https://martex-tailwindcss.ibthemespro.com/images/img-13.png" alt="">
+        </div>
+    </section>
 </body>
 
 </html>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 30,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+</script>
