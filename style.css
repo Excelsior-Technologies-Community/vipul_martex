@@ -263,7 +263,7 @@ body {
     grid-template-columns: 2fr 2fr;
     gap: 60px;
     align-items: center;
-    border-top: 0.1px solid black;
+    border-top: 0.01px solid black;
 }
 
 .section-3 .left-3 {
@@ -495,7 +495,7 @@ body {
     gap: 60px;
     align-items: center;
     margin-top: 50px;
-    border-top: 0.1px solid black;
+    border-top: 0.01px solid black;
 }
 
 .section-6 .left-6 {
@@ -754,7 +754,7 @@ body {
 
 .section-10 {
     margin-bottom: 100px;
-    border-top: 0.1px solid black;
+    border-top: 0.01px solid black;
 }
 
 .section-10 .text-h2 {
@@ -833,7 +833,7 @@ body {
     gap: 60px;
     align-items: center;
     padding-top: 100px;
-    border-top: 0.1px solid black;
+    border-top: 0.01px solid black;
 }
 
 .section-11 .left-11 {
@@ -880,4 +880,253 @@ body {
 .section-11 .right-11 img {
     height: 623px;
     width: 512px;
+}
+
+.section-12 {
+    padding-top: 100px;
+}
+
+.section-12 h2 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    font-family: 'Jakarta', sans-serif;
+    color: #353f4f;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.section-12 p {
+    font-size: 1.3125rem;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section-12 img {
+    padding-top: 100px;
+    padding-left: 140px;
+}
+
+.btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section-12 button {
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: 250px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn p {
+    font-size: 1.11rem;
+}
+
+.section-13 {
+    margin-top: 100px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 60px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.left-13 img {
+    margin-left: 60px;
+    height: 667px;
+    width: 512px;
+}
+
+.right-13 {
+    width: 600px;
+    margin: 50px auto;
+    position: relative;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.right-13::before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #e5e5e5;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.circle {
+    width: 150px;
+    height: 50px;
+    background: #f43776;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.circle:hover {
+    width: 150px;
+    height: 50px;
+    background: white;
+    color: #f43776;
+    border: 2px solid #f43776;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.content {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.content h3 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: 'Jakarta', sans-serif;
+}
+
+.content p {
+    font-size: 1.1375rem;
+    font-family: 'Jakarta', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.section-14 {
+    padding-top: 100px;
+    background: #f7f5f5;
+    margin-bottom: 100px
+}
+
+.section-14 h2 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: #353f4f;
+    text-align: center;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+
+.section-14 p {
+    text-align: center;
+    font-size: 1.3125rem;
+    color: gray;
+    margin-top: 10px;
+}
+
+.swiper {
+    max-width: 100%;
+}
+
+.swiper-wrapper {
+    display: flex;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.swiper-wrapper p {
+    text-align: center;
+    font-size: 1.15rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.swiper-slide {
+    background: white;
+    padding: 20px;
+    display: block;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 250, 250);
+}
+
+.mySwiper .card-1 {
+    height: 1000px;
+    width: 200px;
+}
+
+.mySwiper .card-2 {
+    height: 135px;
+    width: 370.375px;
+}
+
+.mySwiper .card-3 {
+    height: 110px;
+    width: 370.375px;
+}
+
+.mySwiper .card-4 {
+    height: 95px;
+    width: 370.375px;
+}
+
+.mySwiper .card-5 {
+    width: 370.375px;
+}
+
+.mySwiper .card-6 {
+    width: 370.375px;
+}
+
+.mySwiper .card-7 {
+    width: 370.375px;
+}
+
+.mySwiper .card-8 {
+    width: 370.375px;
+}
+
+.content-2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.content-2 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.text {
+    margin-top: 20px;
+    font-size: 1.15rem;
+    text-align: start;
+    justify-content: left;
+}
+
+/* .text h6 {} */
+
+.text p {
+    font-size: 1rem;
+
 }
