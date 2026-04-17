@@ -741,10 +741,8 @@ body {
 }
 
 .swiper-wrapper {
-    display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
-
+    display: block;
+    align-items: center;
 }
 
 .swiper-slide img {
@@ -1019,9 +1017,13 @@ body {
 }
 
 .section-14 {
+    display: block;
+    max-width: 100%;
     padding-top: 100px;
     background: #f7f5f5;
-    margin-bottom: 100px
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 5px;
 }
 
 .section-14 h2 {
@@ -1042,20 +1044,23 @@ body {
 
 .swiper {
     max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    overflow: hidden;
+    padding: 0 100px;
+    margin-top: 50px;
 }
 
 .swiper-wrapper {
+    align-items: stretch;
     display: flex;
     height: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .swiper-wrapper p {
     text-align: center;
     font-size: 1.15rem;
-    text-align: center;
-    margin-top: 30px;
 }
 
 .swiper-slide {
@@ -1066,67 +1071,224 @@ body {
     border: 2px solid rgb(255, 250, 250);
 }
 
-.mySwiper .card-1 {
-    height: 1000px;
+.mySwiper1 .card-1 {
+    height: 345px;
     width: 200px;
 }
 
-.mySwiper .card-2 {
-    height: 135px;
-    width: 370.375px;
+.mySwiper1 .card-2 {
+    height: 314px;
+    width: 200px;
 }
 
-.mySwiper .card-3 {
-    height: 110px;
-    width: 370.375px;
+.mySwiper1 .card-3 {
+    height: 314px;
+    width: 200px;
 }
 
-.mySwiper .card-4 {
-    height: 95px;
-    width: 370.375px;
+.mySwiper1 .card-4 {
+    height: 345px;
+    width: 200px;
 }
 
-.mySwiper .card-5 {
-    width: 370.375px;
+.mySwiper1 .card-5 {
+    height: 314px;
+    width: 200px;
 }
 
-.mySwiper .card-6 {
-    width: 370.375px;
+.mySwiper1 .card-6 {
+    height: 345px;
+    width: 200px;
 }
 
-.mySwiper .card-7 {
-    width: 370.375px;
+.mySwiper1 .card-7 {
+    height: 314px;
+    width: 200px;
 }
 
-.mySwiper .card-8 {
-    width: 370.375px;
+.mySwiper1 .card-8 {
+    height: 283px;
+    width: 200px;
+}
+
+.mySwiper1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .content-2 {
     position: relative;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    gap: 10px;
+    display: flex;
     align-items: center;
 }
+
 
 .content-2 img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
 }
 
 .text {
-    margin-top: 20px;
-    font-size: 1.15rem;
     text-align: start;
-    justify-content: left;
 }
 
-/* .text h6 {} */
+.text h6 {
+    color: black;
+    line-height: 0;
+    margin-left: 8px;
+    text-align: start;
+    font-size: 1.21rem;
+    margin-top: 60px;
+}
 
 .text p {
     font-size: 1rem;
+    text-align: start;
+}
 
+.container-14 {
+    margin-top: 80px;
+}
+
+.container-14 h5 {
+    color: gray;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+    margin-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.rating-1 {
+    margin-left: 100px;
+}
+
+.rating-1 img {
+    height: 40px;
+    width: 200px;
+}
+
+.rating-2 {
+    margin-left: 100px;
+}
+
+.rating-2 img {
+    height: 40px;
+    width: 200px;
+}
+
+.rating-3 {
+    margin-left: 100px;
+}
+
+.rating-3 img {
+    height: 40px;
+    width: 200px;
+}
+
+.star-rating {
+    display: flex;
+    margin-top: 15px;
+    border: 2px solid rgb(247, 246, 246);
+    border-radius: 50px;
+    background: white;
+}
+
+
+.star-rating span {
+    color: rgb(255, 213, 0);
+    margin-left: 30px;
+    justify-content: space-between;
+}
+
+.star-rating p {
+    font-weight: bold;
+    margin-left: 10px;
+    color: gray
+}
+
+.section-15 {
+    background: #e7e5e8;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 100px;
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+
+.section-15 h2 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.section-15 p {
+    font-size: 1.3125rem;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.block-15 {
+    display: flex;
+    padding-top: 50px;
+    margin-left: 60px;
+    padding-bottom: 80px;
+}
+
+.data-1 {
+    height: 150px;
+    background: white;
+    border-radius: 15px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.data-1 img {
+    height: 65px;
+    width: 65px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 35px;
+    align-items: center;
+}
+
+.data-1 h6 {
+    font-size: 1.0625rem;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section-15 button {
+
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: 250px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.section-15 button:hover {
+    background: #f43776;
+    color: white;
+    border: 2px solid #f43776;
 }
