@@ -5,6 +5,7 @@ body {
 
 .section-1 {
     background: linear-gradient(90deg, #7b2ff7, #9b4dff);
+    padding-bottom: 200px;
 }
 
 .logo {
@@ -12,7 +13,6 @@ body {
     margin-right: 100px;
     margin-top: auto;
     color: white;
-
 }
 
 .header {
@@ -28,10 +28,10 @@ body {
 .navbar {
     justify-content: space-between;
     align-items: center;
-    padding: 15px 60px;
+    padding: 1px 15px;
     text-shadow: white;
     gap: 20px;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
@@ -40,29 +40,19 @@ body {
     text-decoration: none;
     margin-right: 15px;
     font-size: 18px;
-    font-weight: 600;
-}
-
-.signin {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-
-}
-
-.signup {
-    background: #fa2c51;
-    color: white;
-    padding: 20px 30px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .about {
     max-width: max-content;
     color: white;
     font-size: 1.1rem;
+}
+
+.about a {
+    color: black;
+    background: white;
+    text-align: center;
 }
 
 .pages {
@@ -78,25 +68,20 @@ body {
     text-align: center;
 }
 
-.about a {
-    color: black;
-    background: white;
-    text-align: center;
-}
-
-.section-first {
-    padding: 100px 20px;
+.signin {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
 
 }
 
-.text {
-    margin: 15px;
-    text-align: start;
-    padding-bottom: 100px;
-}
-
-.text p {
-    margin-left: 50px;
+.signup {
+    background: #fa2c51;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .heading {
@@ -120,7 +105,7 @@ body {
 }
 
 .hero-content p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 30px;
     opacity: 0.9;
     text-align: center;
@@ -151,8 +136,8 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
-    top: 45px;
-    height: 662px;
+    top: 35px;
+    height: 652px;
     width: 552px;
     margin-right: 60px;
     margin-top: 150px;
@@ -172,14 +157,25 @@ body {
 
 .hero-1-txt {
     color: white;
-    margin-top: 100px;
     margin-left: 100px;
 }
 
+.text {
+    color: white;
+    padding-top: 100px;
+}
+
+.text h6 {
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-right: 100px;
+}
+
 .text p {
+    font-size: 1.1rem;
     text-align: start;
-    left: 100px;
-    position: absolute;
+    position: relative;
 }
 
 .section-2 {
@@ -208,8 +204,8 @@ body {
 .services {
     text-align: center;
     padding: 60px 20px;
-    margin-left: 80px;
-    margin-right: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .title {
@@ -1163,24 +1159,27 @@ body {
     border-radius: 50%;
     margin-left: 40px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-.text {
+.text-swiper {
     text-align: start;
 }
 
-.text h6 {
+.text-swiper h6 {
     color: black;
     line-height: 0;
-    margin-left: 8px;
+    margin-left: 20px;
     text-align: start;
-    font-size: 1.21rem;
-    margin-top: 60px;
+    font-size: 1.1rem;
+    margin-top: 30px;
 }
 
-.text p {
-    font-size: 1rem;
+.text-swiper p {
+    font-size: 15px;
     text-align: start;
+    padding-bottom: 10px;
+    ;
 }
 
 .container-14 {
@@ -1589,7 +1588,3 @@ body {
 .right-part a {
     margin-left: 15px;
 }
-
-@media screen and (max-width:1024px) {}
-
-@media screen and (max-width:768px) {}
