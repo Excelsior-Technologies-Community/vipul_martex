@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
@@ -66,6 +67,60 @@
                         <a href="#" class="signup">Sign up</a>
 
                     </div>
+            </nav>
+            <nav class="navbar-2">
+                <img src="https://martex-tailwindcss.ibthemespro.com/images/logo-pink.png" alt="">
+
+                <div class="menu-btn" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="sidebar" id="sidebar">
+                    <div class="close-btn" onclick="closeMenu()">✖</div>
+                    <div class="menu-item" onclick="toggleAbout()">
+                        About <span id="arrow">⌄</span>
+                    </div>
+                    <div class="submenu" id="aboutMenu">
+                        <a href="#">Why Martex?</a>
+                        <a href="#">Integrations</a>
+                        <a href="#">How It Works</a>
+                        <a href="#">Best Solutions</a>
+                        <a href="#">Testimonials</a>
+                    </div>
+                    <a href="#">Features</a>
+                    <div class="menu-item" onclick="togglePages()">
+                        Pages <span id="pagesArrow">⌄</span>
+                    </div>
+
+                    <div class="submenu" id="pagesMenu">
+                        <a href="#">About Us</a>
+                        <a href="#">Our Team</a>
+
+                        <a href="#" class="badge-item">
+                            Careers <span class="badge">4</span>
+                        </a>
+
+                        <a href="#">Career Details</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Core Feature</a>
+                        <a href="#">Our Projects</a>
+                        <a href="#">Project Details</a>
+                        <a href="#">Testimonials</a>
+                        <a href="#">Download Page</a>
+                        <a href="#">Pricing Page #1</a>
+                        <a href="#">Pricing Page #2</a>
+                        <a href="#">FAQs Page</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">404 Page</a>
+                        <a href="#">Blog Listing</a>
+                        <a href="#">Single Blog Post</a>
+                        <a href="#">Login Page</a>
+                        <a href="#">Signup Page</a>
+                        <a href="#">Reset Password</a>
+                    </div>
+                    <a href="#">Pricing</a>
+                    <a href="#">FAQs</a>
+                </div>
             </nav>
         </header>
         <section class="section-first">
@@ -765,4 +820,26 @@
             disableOnInteraction: false,
         },
     });
+</script>
+
+<script>
+    function openMenu() {
+        document.getElementById("sidebar").classList.add("active");
+    }
+
+    function closeMenu() {
+        document.getElementById("sidebar").classList.remove("active");
+    }
+</script>
+<script>
+    function toggleAbout() {
+        document.getElementById("aboutMenu").classList.toggle("show");
+        document.getElementById("arrow").classList.toggle("rotate");
+    }
+</script>
+<script>
+    function togglePages() {
+        document.getElementById("pagesMenu").classList.toggle("show");
+        document.getElementById("pagesArrow").classList.toggle("rotate");
+    }
 </script>
