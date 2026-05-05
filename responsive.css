@@ -173,10 +173,9 @@
 }
 
 
-
 @media screen and (max-width:768px) {
     body {
-        width: 1211px;
+        width: 1212px;
         margin: 0;
         font-family: Arial;
     }
@@ -195,6 +194,31 @@
         position: fixed;
         width: 1211px;
         overflow: visible;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 60px;
+        position: fixed;
+        width: 1261px;
+        position: fixed;
+
+        position: fixed;
+
+        top: 0;
+        left: 0;
+
+        width: 100%;
+
+        z-index: 9999;
+
+        padding: 20px 80px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        transition: 0.4s ease;
     }
 
     .navbar-2 img {
@@ -207,6 +231,7 @@
     .nav-left {
         display: none;
     }
+
 
     .menu-btn {
         font-size: 24px;
@@ -347,6 +372,7 @@
     .icon {
         width: 123px;
         height: 116px;
+        margin-left: 161px;
     }
 
     .card h3 {
@@ -489,6 +515,12 @@
         gap: 15px;
     }
 
+    .icon1 {
+        width: 123px;
+        height: 116px;
+        margin-left: 0px;
+    }
+
     .section-7 .left-7 h6 {
         font-size: 19px;
         color: gray;
@@ -528,7 +560,7 @@
     .icon {
         width: 123px;
         height: 116px;
-        margin-left: 0px;
+        margin-left: 153px;
     }
 
     .section-8 .right-8 h6 {
@@ -626,7 +658,471 @@
         gap: 2px;
     }
 
-    .footer-4 .input {
-        margin: 11px -14px;
+    .content h3 {
+        margin: 0px;
+
+        font-size: 27px;
+    }
+
+    .content p {
+        font-size: 21px;
+    }
+
+    .section-14 h2 {
+        font-size: 67px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .section-14 p {
+        font-size: 26px;
+    }
+
+    .swiper3 {
+        display: block;
+    }
+
+    .mySwiper1 {
+        display: none;
+    }
+
+    .text-swiper {
+        text-align: start;
+    }
+
+    .text-swiper h6 {
+        color: black;
+        line-height: 0;
+        margin-left: 20px;
+        text-align: start;
+        font-size: 1.1rem;
+        margin-top: 30px;
+    }
+
+    .text-swiper p {
+        font-size: 15px;
+        text-align: start;
+        padding-bottom: 10px;
+    }
+
+    .section-16 h2 {
+        font-size: 56px;
+    }
+
+    .section-16 p {
+        font-size: 23px;
+    }
+
+    .left-16 h5 {
+        font-size: 28px;
+    }
+
+    .left-16 p {
+        font-size: 21px;
+    }
+
+    .left-16 ul {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .right-16 p {
+        font-size: 19px;
+    }
+
+    .footer-data {
+        display: none;
+    }
+
+    .footer1 {
+        display: block;
+    }
+
+    .footer-menu {
+        display: flex;
+        margin-top: 50px;
+        gap: 65px;
+        margin-left: -142px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-around;
+    }
+
+    .footer-menu h2 {
+        font-size: 29px;
+    }
+
+    .footer-menu p {
+        font-size: 20px;
+    }
+
+
+    .footer-4 {
+        margin-left: 56px;
+        width: 517px;
+        margin-top: 26px;
+    }
+
+    .footer-4 input {
+        width: 457px;
+        padding: 10px;
+    }
+
+    .footer-4 span {
+        align-items: end;
+        text-align: end;
+        justify-content: end;
+    }
+
+    .left-part {
+        align-items: start;
+        padding-right: 43px;
+        margin-right: 214px;
+    }
+
+    .left-part p {
+        font-size: 21px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    body {
+        justify-content: space-evenly;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar-2 {
+        height: 213px;
+        gap: 0px;
+    }
+
+    .navbar-2 img {
+        height: 162px;
+        gap: 0px;
+        width: 547px;
+    }
+
+    .menu-btn {
+        font-size: 69px;
+        margin-right: 26px;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100%;
+        background: #f5f5f5;
+        transition: 0.3s;
+        padding-top: 60px;
+        z-index: 1000;
+        scroll-behavior: smooth;
+        overflow-y: auto;
+        font-size: 36px;
+    }
+
+    .menu-item {
+        padding: 15px 20px;
+        cursor: pointer;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 50px;
+        cursor: pointer;
+        margin-top: 6px;
+    }
+
+    .heading {
+        width: 500px;
+        font-size: 126px;
+        margin-top: 177px;
+        text-align: center;
+        width: 1060px;
+    }
+
+    .text h6 {
+        font-size: 52px;
+        text-align: center;
+        width: 1126px;
+    }
+
+    .hero-content {
+        display: block;
+        position: relative;
+    }
+
+    .hero-image img {
+        position: relative;
+        height: 1407px;
+        width: 1302px;
+        max-width: 1102px;
+        margin-top: 168px;
+    }
+
+    .hero-content button {
+        padding: 28px 40px;
+        border-radius: 19px;
+        font-size: 59px;
+        width: 130%;
+        margin-left: 151px;
+        margin-top: 40px;
+    }
+
+    .text p {
+        font-size: 47px;
+        width: 1138px;
+        text-align: center;
+        margin-left: -38px;
+        margin-top: 24px;
+    }
+
+    .section-2 h1 {
+        font-weight: 750;
+        font-size: 91px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        letter-spacing: -0.5px;
+        text-align: center;
+        padding-top: 50px;
+        margin-left: 150px;
+        margin-right: 183px;
+    }
+
+    .section-2 h5 {
+        color: grey;
+        margin-bottom: 0;
+        font-size: 59px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .card {
+        background: transparent;
+        padding: 0;
+        display: block;
+        width: 904px;
+        height: 400px;
+        margin-bottom: 281px;
+    }
+
+    .icon {
+        width: 286px;
+        height: 290px;
+        margin-left: 357px;
+    }
+
+    .icon img {
+        width: 183px;
+    }
+
+    .card h3 {
+        font-size: 63px;
+        font-weight: 600;
+        line-height: 3rem;
+        text-align: center;
+        margin-left: 92px;
+    }
+
+    .card h6 {
+        margin-top: 47px;
+        font-size: 56px;
+        font-weight: 549;
+        width: 955px;
+        margin-left: 21px;
+    }
+
+    .section-3 {
+        position: relative;
+        display: block;
+        height: 2597px;
+    }
+
+    .section-3 .left-3 {
+        align-items: center;
+        height: 682px;
+        width: 1057px;
+    }
+
+    .section-3 .left-3 img {
+        height: 1026px;
+        width: 1000px;
+        align-items: center;
+        margin-left: 35px;
+    }
+
+    .section-3 .right-3 {
+        height: 685px;
+        width: 528px;
+        margin-top: 444px;
+        margin-left: 72px;
+        letter-spacing: 1.7px;
+    }
+
+    .section-3 .right-3 h3 {
+        font-size: 40px;
+    }
+
+    .section-3 .right-3 h1 {
+        font-size: 81px;
+        width: 1000px;
+        font-weight: 750;
+        margin-top: 82px;
+    }
+
+    .section-3 .right-3 h2 {
+        font-size: 65px;
+        width: 1000px;
+    }
+
+    .section-3 .right-3 h6 {
+        font-size: 47px;
+        width: 1000px;
+        margin-top: 47px;
+        margin-bottom: 61px;
+    }
+
+    .section-3 .right-3 ul {
+        font-size: 48px;
+        width: 1001px;
+        margin-top: 52px;
+    }
+
+    .section-4 {
+        margin-top: 100px;
+    }
+
+    .section-4 .left-4 h3 {
+        margin-top: 58px;
+        font-size: 72px;
+        width: 1000px;
+    }
+
+    .section-4 .left-4 p {
+        font-size: 51px;
+        margin-top: 71px;
+    }
+
+    .section-4 .left-4 ul {
+        margin-top: 50px;
+        margin-left: 15px;
+        list-style-type: disc;
+        font-size: 51px;
+    }
+
+    .section-4 .right-4 img {
+        left: 0;
+        height: 1428px;
+        width: 1146px;
+    }
+
+    .section-4 .left-4 {
+        margin-top: 1656px;
+    }
+
+    .section-5 h2 {
+        font-size: 99px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .section-5 p {
+        font-size: 72px;
+    }
+
+    .section-5 .container-5 {
+        display: block;
+    }
+
+    .section-5 .left-5 h5 {
+        font-size: 83px;
+        font-weight: 600;
+        padding-top: 71px;
+    }
+
+    .section-5 .left-5 .p {
+        font-size: 59px;
+        margin-left: 101px;
+        margin-right: 91px;
+        margin-top: 22px;
+    }
+
+    .section-5 .left-5 img {
+        height: 592px;
+        width: 990px;
+        margin-left: 60px;
+    }
+
+    .section-5 .right-5 {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .section-5 .right-5 img {
+        height: 793px;
+        width: 980px;
+        margin-top: 50px;
+        margin-left: 80px;
+        padding-top: 98px;
+    }
+
+    .section-5 .right-5 h5 {
+        font-size: 69px;
+        margin-top: 27px;
+    }
+
+    .section-5 .right-5 p {
+        font-size: 59px;
+        margin-left: 101px;
+        margin-right: 91px;
+        margin-top: 22px;
+    }
+
+    .container-2 {
+        display: block;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    .container-2 .content-1 {
+        display: block;
+        height: auto;
+        width: 320px;
+    }
+
+    .container-2 .content-1 h2 {
+        margin-left: 342px;
+        font-size: 124px;
+        height: 281px;
+        margin-top: 78px;
+        margin-bottom: 0;
+    }
+
+    .container-2 .content-1 p {
+        font-size: 47px;
+        text-align: center;
+        color: gray;
+        line-height: 1.3;
+        width: 900px;
+        margin-top: -96px;
     }
 }
